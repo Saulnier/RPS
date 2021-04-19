@@ -26,21 +26,21 @@ function compare (c1, c2) {
         if (c2 === 'rock') {
             return 'You win with Rock!';
         }else {
-            return 'You lose, computer wins';
+            return `You lose, computer wins with ${c2}`;
         }
     }
     if (c1 === 'rock') {
         if (c2 === 'scissors') {
             return 'You win with Rock!';
         }else {
-            return 'You lose, computer wins';
+            return `You lose, computer wins with ${c2}`;
         }
     }
     if (c1 === 'scissors') {
         if (c2 === 'paper') {
             return 'You win with Rock!';
         }else {
-            return 'You lose, computer wins';
+            return `You lose, computer wins with ${c2}`;
         }
     }
 }
